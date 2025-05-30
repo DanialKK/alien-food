@@ -8,15 +8,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="p-4">
+<body class="p-4 bg-[#0b0c10] text-[#66fcf1] font-[Vazirmatn]">
+
   <header class="text-center mb-6">
-    <h1 class="text-4xl font-bold">👽 Alien Food</h1>
-    <p class="text-lg">منوی آنلاین فست‌فود با طعمی از کهکشان</p>
+    <p class="text-lg">فست‌فود با طعمی از کهکشان</p>
   </header>
+
+  <nav class="flex justify-between items-center mb-6 p-4 bg-[#1f2833] rounded-lg shadow-md">
+
+    <ul class="flex space-x-6 rtl:space-x-reverse">
+      <li><a href="#menu" class="hover:text-pink-600 transition">منو</a></li>
+      <li><a href="#about" class="hover:text-pink-600 transition">درباره ما</a></li>
+      <li><a href="#contact" class="hover:text-pink-600 transition">تماس</a></li>
+    </ul>
+  </nav>
 
   <main>
     <div id="menu" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
   </main>
+
+  <div class="spaceship"></div>
 
   <script src="script.js"></script>
 </body>

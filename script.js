@@ -27,3 +27,26 @@ fetch("data/menu.json")
     document.getElementById("menu").innerHTML = "<p class='text-red-500'>مشکلی در بارگذاری منو پیش آمد.</p>";
     console.error("Menu fetch error:", err);
   });
+
+  //سفینه
+
+const spaceship = document.querySelector('.spaceship');
+
+function randomPosition() {
+  const maxTop = window.innerHeight - spaceship.offsetHeight;
+  const maxLeft = window.innerWidth - spaceship.offsetWidth;
+
+  const top = Math.random() * maxTop;
+  const left = Math.random() * maxLeft;
+  const rotate = Math.random() * 50;
+
+  spaceship.style.top = top + 'px';
+  spaceship.style.left = left + 'px';
+  spaceship.style.transform = `rotate(${rotate}deg)`;
+}
+
+
+setInterval(randomPosition, 50);
+
+// شروع با موقعیت رندوم اولیه
+randomPosition();

@@ -10,4 +10,40 @@ body {
     padding: 1rem;
     margin: 0.5rem;
   }
+
+  nav {
+    position: relative;
+  }
+  /* سفینه بشقاب پرنده */
+.spaceship {
+    position: fixed;
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(135deg, #a0e7e5, #00bcd4);
+    border-radius: 80%;
+    box-shadow: 0 4px 12px rgba(2, 103, 116, 0.8);
+    filter: drop-shadow(0 0 10px #00bcd4);
+    top: 50vh;
+    left: 50vw;
+    transform-origin: center center;
+    transition: top 6s ease, left 6s ease, transform 6s ease;
+    z-index: 9999;
+    cursor: pointer;
+    z-index: -1;
+  }
+  
+  
+  .spaceship::before {
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    width: 35px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2); /* شفاف و روشن */
+    border-radius: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(3px); /* افکت شیشه‌ای */
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.8);
+  }
   
