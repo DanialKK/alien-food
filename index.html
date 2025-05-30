@@ -8,24 +8,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="p-4 bg-[#0b0c10] text-[#66fcf1] font-[Vazirmatn]">
+<body class="p-4 bg-[#0b0c10] text-[#66fcf1] font-[Vazirmatn] matrix-bg">
+    <div class="rain"></div>
 
-  <header class="text-center mb-6">
-    <p class="text-lg">فست‌فود با طعمی از کهکشان</p>
-  </header>
+    <nav class="flex justify-center items-center mb-6 p-4 bg-[#1f2833] rounded-lg shadow-md">
+        <ul class="flex space-x-6 rtl:space-x-reverse">
+          <li><a href="#menu" class="hover:text-pink-600 transition">منو</a></li>
+          <li><a href="#about" class="hover:text-pink-600 transition">درباره ما</a></li>
+          <li><a href="#contact" class="hover:text-pink-600 transition">ارتباط با ما</a></li>
+        </ul>
+    </nav>
 
-  <nav class="flex justify-between items-center mb-6 p-4 bg-[#1f2833] rounded-lg shadow-md">
+    <header class="text-center mb-6">
+    <div class="matrix-container">
+        <h1 class="matrix-text" data-text="Alien Food">Alien Food</h1>
+    </div>
+    </header>
 
-    <ul class="flex space-x-6 rtl:space-x-reverse">
-      <li><a href="#about" class="hover:text-pink-600 transition">درباره ما</a></li>
-      <li><a href="#contact" class="hover:text-pink-600 transition">تماس</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <div id="menu" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
-  </main>
-
+    <section id="menu" class="p-6">
+    <main>
+        <div id="menu" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+    </main>
+    </section>
   <section id="about" class="p-6">
     <h1>👽 درباره ما</h1>
     <p>ما از سیاره‌ای دور آمده‌ایم تا فست‌فودهای فضایی برایتان بیاوریم!</p>
@@ -41,6 +45,7 @@
     <p class="text-red-500">ارتباط امکان پذیر نیست در حال تلاش برای برقراری با سیاره زمین هستیم.</p>
 
   </section>
+  
 
   <div class="spaceship"></div>
 
