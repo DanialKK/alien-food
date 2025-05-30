@@ -3,15 +3,20 @@ body {
     background-color: #0b0c10;
     color: #66fcf1;
   }
+
+html {
+    scroll-behavior: smooth;
+  }
   
-  .card {
+  
+.card {
     background-color: #1f2833;
     border-radius: 1rem;
     padding: 1rem;
     margin: 0.5rem;
   }
 
-  nav {
+nav {
     position: relative;
   }
   /* سفینه بشقاب پرنده */
@@ -33,7 +38,7 @@ body {
   }
   
   
-  .spaceship::before {
+.spaceship::before {
     content: '';
     position: absolute;
     top: -14px;
