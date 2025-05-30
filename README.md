@@ -1,7 +1,6 @@
 # 🛸 Alien Food - منوی آنلاین رستوران فضایی
 
-Alien Food یک پروژه جذاب و مدرن برای نمایش منوی غذا به صورت آنلاین است که با استفاده از HTML، CSS (Tailwind) و JavaScript خالص ساخته شده است. این پروژه با افکت‌های تصویری و ترکیبی، تجربه‌ای متفاوت را برای کاربران ارائه می‌کند.
-
+Alien Food is an attractive and modern online food menu project built using pure HTML, CSS (Tailwind) and JavaScript. It offers a different experience for users with visual and composite effects.
 ---
 
 ## 📷 پیش‌نمایش
@@ -27,7 +26,7 @@ Alien Food یک پروژه جذاب و مدرن برای نمایش منوی غ�
 ## 🔧 تکنولوژی‌ها
 
 - HTML5
-- Tailwind CSS (برای استایل‌دهی سریع و حرفه‌ای)
+- Tailwind CSS
 - JavaScript (Vanilla)
 - Google Maps (iframe)
 
