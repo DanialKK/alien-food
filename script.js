@@ -15,7 +15,8 @@ fetch("data/menu.json")
         card.className = "card shadow-lg";
         card.innerHTML = `
           <h3 class="text-xl font-semibold">${item.name}</h3>
-          <p class="text-green-400">${item.price} تومان</p>
+          <span class="text-green-400">${item.price} تومان</span>
+          <p class="text-m font-semibold">${item.description}</p>
         `;
         section.appendChild(card);
       });
