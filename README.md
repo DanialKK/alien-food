@@ -5,10 +5,11 @@ Alien Food یک پروژه‌ی جذاب و مدرن برای نمایش منو�
 ---
 
 ## 📷 پیش‌نمایش
+<div align="center">
 <img src="./assets/images/Screenshot.png" alt="پیش‌نمایش پروژه Alien Food" width="600"/>
 
 [گیت هاب پیج](https://danialkk.github.io/alien-food/)  
-
+</div>
 ---
 
 ## ✨ امکانات
