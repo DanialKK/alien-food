@@ -13,10 +13,16 @@ fetch("data/menu.json")
       menuData[category].forEach(item => {
         const card = document.createElement("div");
         card.className = "card shadow-lg";
+        let descriptionHTML = '';
+        if (item.description) {
+        descriptionHTML = `<p class="text-sm text-gray-300">${item.description}</p>`;
+        }
         card.innerHTML = `
-          <h3 class="text-xl font-semibold">${item.name}</h3>
-          <span class="text-green-400">${item.price} تومان</span>
-          <p class="text-m font-semibold">${item.description}</p>
+        <div class="flex justify-between items-center mb-2">
+        <h3 class="text-xl font-semibold">${item.name}</h3>
+        <span class="text-green-400 font-bold">${item.price} تومان</span>
+        </div>
+        ${descriptionHTML}
         `;
         section.appendChild(card);
       });
