@@ -31,7 +31,7 @@ nav {
     top: 50vh;
     left: 50vw;
     transform-origin: center center;
-    transition: top 2s ease, left 10s ease, transform 0.5s ease;
+    transition: top 2s ease, left 5s ease, transform 0.5s ease;
     z-index: 9999;
     cursor: none;
     z-index: -1;
