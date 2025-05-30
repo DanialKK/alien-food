@@ -38,7 +38,8 @@ function randomPosition() {
 
   const top = Math.random() * maxTop;
   const left = Math.random() * maxLeft;
-  const rotate = Math.random() * 50;
+  const rotate = (Math.random() * 30) - 15;
+
 
   spaceship.style.top = top + 'px';
   spaceship.style.left = left + 'px';
@@ -46,7 +47,7 @@ function randomPosition() {
 }
 
 
-setInterval(randomPosition, 50);
+setInterval(randomPosition, 500);
 
 // شروع با موقعیت رندوم اولیه
 randomPosition();
